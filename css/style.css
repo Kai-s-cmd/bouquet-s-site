@@ -1,0 +1,27 @@
+.gallary {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.container-fluid-carousel {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel .carousel-item {
+  width: 1280px;
+  height: 720px;
+}
+  
+.carousel-item img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  min-height: 500px;
+}
