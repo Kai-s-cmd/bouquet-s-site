@@ -5,14 +5,7 @@
   text-align: center;
 }
 
-.container-fluid-carousel {
-  max-width: 1280px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .carousel .carousel-item {
-  width: 1280px;
   height: 720px;
 }
   
