@@ -1,14 +1,40 @@
+@font-face {
+  font-family: "PlayfairDisplay";
+  src: url('/fonts/PlayfairDisplay-VariableFont_wght.ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url('/fonts/OpenSans-VariableFont_wdth\,wght.ttf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+.navbar-brand {
+  font-family: "OpenSans", sans-serif;
+  color: #000;
+}
+
+.nav-item {
+  font-family: "PlayfairDisplay", sans-serif;
+  color: #000;
+}
+
 .gallary {
-  margin-top: 60px;
-  margin-bottom: 60px;
-  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 70px;
   text-align: center;
+  font-family: "PlayfairDisplay", serif;
+  color: #FF8CBE
 }
 
 .carousel .carousel-item {
   height: 720px;
 }
-  
+
 .carousel-item img {
   height: 100%;
   width: 100%;
@@ -17,4 +43,39 @@
   top: 0;
   left: 0;
   min-height: 500px;
+}
+
+.gallary_container {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.gall_photo:hover {
+  opacity: 0.7;
+}
+
+.prices {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+
+.card {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+
+}
+
+.card-img-top {
+  margin-top: 12px;
+}
+
+.price {
+  margin-top: 26px;
+  margin-bottom: 50px;
+  font-size: 70px;
+  text-align: center;
+  font-family: "PlayfairDisplay", serif;
+  color: #FF8CBE
 }
