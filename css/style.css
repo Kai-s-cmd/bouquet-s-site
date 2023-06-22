@@ -103,6 +103,17 @@
   color: #FF8CBE
 }
 
+.modal {
+  font-family: "Bubbles", serif;
+  font-size: 17px;
+  color: #FF8CBE
+}
+
+.form-control {
+  color: #FF8CBE !important;
+  font-size: 15px;
+}
+
 .card-body {
   font-family: "Bubbles", serif;
   font-size: 15px;
@@ -117,6 +128,11 @@
 .btn-primary:hover {
   background-color: #f762a2;
   border-color: #f762a2;
+}
+
+.btn-primary:active{
+  background-color: #f762a2 !important;
+  border-color: #f762a2 !important;
 }
 
 .footer {

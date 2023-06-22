@@ -135,7 +135,7 @@
                 <p class="card-text">Маленький зефирный букет диаметром 20 см. Уникальное сочетание нежных ароматов и
                   вкусов, созданное с любовью к деталям. Порадуйте себя или своих близких этим маленьким чудом, которое
                   станет прекрасным подарком для любого случая.</p>
-                <a href="#" class="btn  btn-primary">Цена: 1000 руб</a>
+                <a href="#" class="btn  btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">Цена: 1000 руб</a>
               </div>
             </div>
             <div class="card" style="width: 18rem;">
@@ -143,7 +143,7 @@
               <div class="card-body">
                 <h5 class="card-title">Средний букет</h5>
                 <p class="card-text">"Очарование величины: изысканный средний зефирный букет диаметром 25 см. Насыщенные цвета, нежный вкус и изысканная красота зефира, сплетенные в прекрасную композицию. Идеальное сочетание стиля, вкуса и утонченности для важных моментов в жизни."</p>
-                <a href="#" class="btn btn-primary">Цена: 1500 руб</a>
+                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">Цена: 1500 руб</a>
               </div>
             </div>
             <div class="card" style="width: 18rem;">
@@ -153,7 +153,35 @@
                 <p class="card-text">"Впечатляющая грандиозность: большой зефирный букет диаметром 30 см. Роскошные
                   цветочные композиции, пропитанные сладким волшебством зефира. Незабываемый подарок, который создаст
                   яркие эмоции и запомнится на долгое время. "</p>
-                <a href="#" class="btn btn-primary">Цена: 2200 руб</a>
+                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">Цена: 2200 руб</a>
+              </div>
+            </div>
+          </div>
+        </div>
+              <!-- Popup form -->
+        <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Заказ</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="mb-3">
+                    <label for="name" class="form-label">Имя</label>
+                    <input type="text" class="form-control" id="name" placeholder="Введите Ваше имя">
+                  </div>
+                  <div class="mb-3">
+                    <label for="number" class="form-label">Номер телефона</label>
+                    <input type="text" class="form-control" id="number" placeholder="Введите Ваш номер телефона">
+                  </div>
+                  <div class="mb-3">
+                    <label for="message" class="form-label">Сообщение</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Напишите когда с Вами лучше связаться для уточнения деталей"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Отправить</button>
+                </form>
               </div>
             </div>
           </div>
@@ -190,7 +218,6 @@
               <span class="creator-text">Create by Kai-s-cmd</span>
             </a>
           </div>
-          
       </footer>
     </div>
   </section>
