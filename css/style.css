@@ -17,21 +17,41 @@
   color: white;
 }
 
-
-
 .nav-link, .nav-link-active {
   font-family: "Bubbles", sans-serif;
   color: white;
 }
 
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler {
+  border-color: rgb(255,255,255);
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 var(--bs-navbar-toggler-focus-width);
+}
+
 .gallary {
   margin-top: 50px;
   margin-bottom: 50px;
-  font-size: 70px;
+  font-size: 60px;
   text-align: center;
   font-family: "Bubbles", serif;
   color: #FF8CBE
 }
+
+.overlay {
+  background: linear-gradient(45deg, hsla(168, 85%, 52%, 0), hsla(263, 88%, 45%, 0));
+  transition: 0.3s ease;
+}
+
+.overlay:hover {
+  background: linear-gradient(45deg, hsla(168, 85%, 52%, 0.5), hsla(263, 88%, 45%, 0.5));
+}
+
 
 .carousel .carousel-item {
   height: 720px;
@@ -54,6 +74,7 @@
 
 .gall_photo:hover {
   opacity: 0.7;
+  transition: 0.3s ease;
 }
 
 .prices {
@@ -74,9 +95,9 @@
 }
 
 .price {
-  margin-top: 26px;
+  margin-top: 50px;
   margin-bottom: 50px;
-  font-size: 70px;
+  font-size: 60px;
   text-align: center;
   font-family: "Bubbles", serif;
   color: #FF8CBE
@@ -98,14 +119,35 @@
   border-color: #f762a2;
 }
 
-.navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+.footer {
+  background-color: #FF8CBE;
 }
 
-.navbar-toggler {
-  border-color: rgb(255,255,255);
+.link-footer {
+  text-decoration: none;
+  font-family: "Bubbles", sans-serif;
+  color: white;
 }
 
-.navbar-toggler:focus {
-  box-shadow: 0 0 0 var(--bs-navbar-toggler-focus-width);
+.link-footer:hover {
+  color: black;
+}
+
+.social-name {
+  font-family: "Bubbles", sans-serif;
+}
+
+.contacts {
+  font-family: "Bubbles", sans-serif;
+  color: white;
+}
+
+.creator-text {
+  margin-left: 5px;
+  font-size: 15px;
+  
+}
+
+.link-secondary {
+  text-decoration: none;
 }
